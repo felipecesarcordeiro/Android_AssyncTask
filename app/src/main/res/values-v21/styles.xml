@@ -1,0 +1,16 @@
+<!-- 
+*Felipe César Cordeiro Campelo
+ * Matricula : 20121004010 
+ * 4°ano Integrado em informatica
+ * github:felipecesarcordeiro e-mail:felipecesarcordeiro@gmail.com 
+ --> 
+
+<resources>>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

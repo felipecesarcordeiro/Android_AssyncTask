@@ -1,0 +1,17 @@
+<!-- 
+*Felipe César Cordeiro Campelo
+ * Matricula : 20121004010 
+ * 4°ano Integrado em informatica
+ * github:felipecesarcordeiro e-mail:felipecesarcordeiro@gmail.com 
+ --> 
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.felipe.android_asynctask.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
