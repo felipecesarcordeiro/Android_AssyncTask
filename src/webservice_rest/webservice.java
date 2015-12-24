@@ -52,12 +52,12 @@ public class webservice extends HttpServlet
 			// Conversão para JSONObject
 			JSONObject json = new JSONObject(stringBuffer.toString());
 			
-			String nome = json.getString("nome");
-			String senha = json.getString("senha");		
+			String name = json.getString("nome");
+			String pass = json.getString("senha");		
 
 			PrintWriter pw = response.getWriter();
 			
-			if (nome.toLowerCase().trim().equals(nome) && senha.trim().equals(senha)) 
+			if (name.toLowerCase().trim().equals(name) && pass.trim().equals(pass)) 
 			{			
 				
 				try 
@@ -94,9 +94,9 @@ public class webservice extends HttpServlet
 				hexString.append(String.format("%02X", 0xFF & b));
 			}
 
-			String senha = hexString.toString();
+			String pass = hexString.toString();
 
-			return senha;
+			return pass;
 		}
 
 	}
