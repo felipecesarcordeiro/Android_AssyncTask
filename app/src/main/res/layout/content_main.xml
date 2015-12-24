@@ -24,44 +24,28 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:weightSum="1"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:id="@+id/textView2"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0.26" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Email:"
+            android:text="Email/Usuario:"
             android:id="@+id/textView5"
-            android:layout_gravity="center_horizontal" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView3"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.04"
+            android:textColor="#171dcf"
+            android:textSize="25dp" />
 
         <EditText
-            android:layout_width="321dp"
+            android:layout_width="230dp"
             android:layout_height="wrap_content"
-            android:id="@+id/editText"
-            android:layout_gravity="center_horizontal" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:id="@+id/textView4"
+            android:id="@+id/nomeEditText"
             android:layout_gravity="center_horizontal"
-            android:layout_weight="0.05" />
+            android:textSize="18dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -69,30 +53,27 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Senha:"
             android:id="@+id/textView6"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:textColor="#171dcf"
+            android:textSize="25dp" />
 
         <EditText
-            android:layout_width="313dp"
+            android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
-            android:id="@+id/editText2"
-            android:layout_gravity="center_horizontal" />
-
-        <TextView
-            android:layout_width="158dp"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:id="@+id/textView7"
+            android:id="@+id/senhaEditText"
             android:layout_gravity="center_horizontal"
-            android:layout_weight="0.16" />
+            android:textSize="18dp"/>
 
         <Button
-            android:layout_width="89dp"
+            android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:text="login"
             android:id="@+id/button"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:background="#171dcf" />
 
     </LinearLayout>
 </RelativeLayout>
